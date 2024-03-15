@@ -186,12 +186,6 @@
         width: 440px;
         height: 330px;
     }
-
-    .about-card {
-        align-items: center;
-
-    }
-
     .about-card__title,
     .card-about__text,
     .about-card {
@@ -199,6 +193,16 @@
         width: 100%;
         text-align: center;
     }
+
+    .all-btn {
+        padding: 11px 14px;
+    }
+
+    .about-card {
+        align-items: center;
+
+    }
+
 
 }
 
@@ -225,6 +229,8 @@
     .container {
         max-width: 375px;
     }
+    .keyboard-list {
+        column-gap: 16px;}
 }
 
 @media (max-width: 375px) {
