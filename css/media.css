@@ -1,0 +1,241 @@
+/* descktop */
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media (max-width: 1320px) {
+    .container {
+        max-width: 1320px;
+        padding: 0 130px;
+    }
+}
+
+@media (max-width: 1290px) {
+    .container {
+        max-width: 1290px;
+        padding: 0 95px;
+    }
+}
+
+@media (max-width: 1170px) {
+    .container {
+        max-width: 1170px;
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .container {
+        max-width: 1140px;
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+        padding: 0 10px;
+    }
+}
+
+/* Tab */
+@media (max-width: 992px) {
+    .container {
+        max-width: 992px;
+        padding: 0 40px;
+    }
+
+    .keyboard-image {
+        padding: 0;
+        width: 0;
+    }
+
+    .keyboard-img {
+        position: absolute;
+        z-index: 1;
+        top: 50px;
+        right: -198px;
+    }
+
+    .keyboard-text {
+        max-width: 339px;
+    }
+
+    .wrapper-img {
+        background: none;
+        width: 0;
+        height: 0;
+    }
+
+    .title {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .keyboard-title {
+        max-width: 339px;
+    }
+
+    .mechanical-title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .mechanical-image {
+        position: unset;
+        column-gap: 50px;
+    }
+
+    .mechanical-item {
+        flex-direction: row;
+        column-gap: 35px;
+    }
+
+    .mechanical-text {
+        max-width: 339px;
+    }
+
+    .about-cards {
+        flex-wrap: wrap;
+        column-gap: 11px;
+        row-gap: 70px;
+    }
+
+    .card-about__text {
+        max-width: 281px;
+        width: 100%;
+    }
+
+    .about-card {
+        max-width: 339px;
+        width: 100%;
+    }
+
+    .mechanical-wrapper__img {
+        top: 0;
+        right: 0;
+        width: 0;
+    }
+}
+
+@media (max-width: 850px) {
+    .container {
+        max-width: 850px;
+        padding: 0 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 25px;
+    }
+
+    .mechanical-image {
+        position: unset;
+        column-gap: 10px;
+    }
+
+    .keyboard {
+        flex-direction: column;
+    }
+
+    .mechanical-item {
+        flex-direction: column;
+        align-items: center;
+        column-gap: 24px;
+    }
+
+    .mechanical-text {
+        max-width: 327px;
+    }
+
+    .keyboard-item {
+        padding: 65px 0;
+
+    }
+
+    .keyboard-image {
+        padding-bottom: 30px;
+    }
+
+    .keyboard-img {
+        position: unset;
+        top: unset;
+        right: unset;
+    }
+
+    .mechanical-item {
+        padding-bottom: 110px;
+        padding-top: 70px;
+    }
+
+    .mechanical-keyboard__img {
+        width: 144px;
+        height: 330px;
+    }
+
+    .mechanical-keyboard__image {
+        width: 440px;
+        height: 330px;
+    }
+
+    .about-card {
+        align-items: center;
+
+    }
+
+    .about-card__title,
+    .card-about__text,
+    .about-card {
+        max-width: 327px;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 684px) {
+    .container {
+        max-width: 576px;
+    }
+}
+
+/* mobile < 576 */
+@media (max-width: 576px) {
+    .container {
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 412px;
+    }
+}
+
+@media (max-width: 412px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 320px;
+        padding: 5px;
+    }
+}
